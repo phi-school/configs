@@ -1,0 +1,12 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/rules": ["src/rules"],
+			"@/utils": ["src/utils"]
+		}
+	},
+	"include": ["src/**/*"],
+	"exclude": ["dist"]
+}

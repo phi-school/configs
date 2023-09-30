@@ -17,7 +17,7 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^17.7.0
         version: 17.7.0
-      '@phi-school/eslint-config':
+      '@phi.school/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
       '@types/node':
