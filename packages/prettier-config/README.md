@@ -47,7 +47,7 @@ Extend this package in your local prettier config or `package.json`:
 
 **Prettier config:**
 
-```json
+```jsonc
 // .prettierrc.json
 "@phi.school/prettier-config"
 ```
@@ -69,6 +69,12 @@ Extend this package in your local prettier config or `package.json`:
 ## Contributing
 
 We welcome contributions! For a detailed guide on how to contribute, please refer to the [Contributing](../../README.md#contributing) section in the main README of the repository.
+
+<div align="right">
+  
+[![Back to Top Badge][back-to-top]](#readme-top)
+
+</div>
 
 ## License
 
