@@ -53,7 +53,7 @@
 		</tr>
 		<tr>
 			<td width="200">
-				<a href="./packages/eslint-config/README.md#readme-top"
+				<a href="./packages/prettier-config/README.md#readme-top"
 					>@phi.school/prettier-config</a
 				>
 			</td>
@@ -78,6 +78,12 @@
 
 > **Note**\
 > For detailed installation and usage instructions, please refer to the `README.md` of each respective config.
+
+<div align="right">
+  
+[![Back to Top Badge][back-to-top]](#readme-top)
+
+</div>
 
 ## Contributing
 
