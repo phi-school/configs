@@ -106,7 +106,7 @@ Extend this package in your local eslint config or `package.json`:
 
 **ESLint Config:**
 
-```json
+```jsonc
 // .eslintrc.json
 {
   "extends": ["@phi.school/eslint-config"]
