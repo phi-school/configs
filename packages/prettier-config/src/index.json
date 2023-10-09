@@ -1,0 +1,15 @@
+{
+	"printWidth": 80,
+	"semi": false,
+	"singleQuote": true,
+	"tabWidth": 2,
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": "*.{md,yaml,yml}",
+			"options": {
+				"useTabs": false
+			}
+		}
+	]
+}

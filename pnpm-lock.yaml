@@ -20,6 +20,9 @@ importers:
       '@phi.school/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
+      '@phi.school/prettier-config':
+        specifier: workspace:*
+        version: link:packages/prettier-config
       '@types/node':
         specifier: ^20.6.3
         version: 20.6.3
@@ -113,6 +116,8 @@ importers:
       local-pkg:
         specifier: ^0.4.3
         version: 0.4.3
+
+  packages/prettier-config: {}
 
   scripts/create-package:
     dependencies:
