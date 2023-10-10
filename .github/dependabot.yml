@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: 'weekly'
     groups:
-      - name: 'dev-dependencies-root'
+      dev-dependencies-root:
         dependency-type: 'development'
 
   # Updates for the eslint-config package
@@ -15,7 +15,7 @@ updates:
     schedule:
       interval: 'weekly'
     groups:
-      - name: 'dependencies-eslint-config'
+      dependencies-eslint-config:
         dependency-type: 'production'
 
   # Updates for packages inside the scripts directory
@@ -24,5 +24,5 @@ updates:
     schedule:
       interval: 'weekly'
     groups:
-      - name: 'dependencies-scripts'
+      dependencies-scripts:
         dependency-type: 'production'
