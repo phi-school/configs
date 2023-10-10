@@ -1,0 +1,28 @@
+version: 2
+updates:
+  # Updates for root level package.json
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    groups:
+      - name: 'dev-dependencies-root'
+        dependency-type: 'development'
+
+  # Updates for the eslint-config package
+  - package-ecosystem: 'npm'
+    directory: '/packages/eslint-config'
+    schedule:
+      interval: 'weekly'
+    groups:
+      - name: 'dependencies-eslint-config'
+        dependency-type: 'production'
+
+  # Updates for packages inside the scripts directory
+  - package-ecosystem: 'npm'
+    directory: '/scripts'
+    schedule:
+      interval: 'weekly'
+    groups:
+      - name: 'dependencies-scripts'
+        dependency-type: 'production'
