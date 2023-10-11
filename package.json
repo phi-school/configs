@@ -5,6 +5,7 @@
 		"scripts/*"
 	],
 	"scripts": {
+		"build:eslint-config": "pnpm --dir ./packages/eslint-config build",
 		"build": "turbo build",
 		"create-package": "node scripts/create-package",
 		"dev": "turbo dev --no-cache --continue",
