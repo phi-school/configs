@@ -14,6 +14,10 @@ export default defineConfig(
 
 							// https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
 							'plugin:react-hooks/recommended',
+
+							// Using JSX transform as of React 17
+							// https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#removing-unused-react-imports
+							'plugin:react/jsx-runtime',
 						],
 
 						settings: {
@@ -30,6 +34,9 @@ export default defineConfig(
 								},
 							],
 
+							// Use TypeScript
+							'react/prop-types': 'off',
+
 							'unicorn/filename-case': [
 								'error',
 								{
@@ -40,6 +47,6 @@ export default defineConfig(
 						},
 					},
 				],
-		  }
+			}
 		: {},
 )
