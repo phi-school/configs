@@ -17,12 +17,3 @@ updates:
     groups:
       dependencies-eslint-config:
         dependency-type: 'production'
-
-  # Updates for packages inside the scripts directory
-  - package-ecosystem: 'npm'
-    directory: '/scripts'
-    schedule:
-      interval: 'weekly'
-    groups:
-      dependencies-scripts:
-        dependency-type: 'production'
