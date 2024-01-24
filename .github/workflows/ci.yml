@@ -25,7 +25,7 @@ jobs:
         run: devbox run -- pnpm lint
 
       - name: Check Format
-        run: devbox run -- pnpm format:check
+        run: devbox run -- pnpm format
 
       - name: Run Tests
         run: devbox run -- pnpm test
