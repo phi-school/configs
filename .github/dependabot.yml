@@ -1,19 +1,15 @@
 version: 2
 updates:
-  # Updates for root level package.json
+  # Maintain dependencies for npm
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
+      # Check for npm updates at 10am UTC
+      time: '10:00'
     groups:
-      dev-dependencies-root:
-        dependency-type: 'development'
-
-  # Updates for the eslint-config package
-  - package-ecosystem: 'npm'
-    directory: '/packages/eslint-config'
-    schedule:
-      interval: 'weekly'
-    groups:
-      dependencies-eslint-config:
+      production-dependencies:
         dependency-type: 'production'
+      development-dependencies:
+        dependency-type: 'development'
+    versioning-strategy: increase
